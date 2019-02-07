@@ -23,7 +23,7 @@ const (
 	// LetsEncryptStaging holds the staging directory url
 	LetsEncryptStaging = "https://acme-staging-v02.api.letsencrypt.org/directory"
 
-	userAgentString = "eggsampler-acme/1.0 Go-http-client/1.1"
+	userAgentString = "varusan-acme/1.0 Go-http-client/1.1"
 )
 
 // NewClient creates a new acme client given a valid directory url.

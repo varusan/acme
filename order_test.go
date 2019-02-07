@@ -50,7 +50,6 @@ func TestClient_FetchOrder(t *testing.T) {
 		t.Fatalf("fetched order different to order, order: %+v, fetchedOrder: %+v", order, fetchedOrder)
 	}
 }
-
 func TestClient_FinalizeOrder(t *testing.T) {
 	makeOrderFinalised(t, nil)
 }

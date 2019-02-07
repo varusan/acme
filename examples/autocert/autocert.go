@@ -15,7 +15,7 @@ import (
 
 	"log"
 
-	"github.com/eggsampler/acme"
+	"github.com/varusan/acme"
 )
 
 func main() {

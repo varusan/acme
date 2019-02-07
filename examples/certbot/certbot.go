@@ -22,7 +22,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/eggsampler/acme"
+	"github.com/varusan/acme"
 )
 
 var (

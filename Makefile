@@ -10,7 +10,7 @@ PEBBLE_PATH ?= $(GOPATH)/src/github.com/letsencrypt/pebble
 # tests the code against a running ca instance
 test:
 	$(eval COVERAGE = coverage_$(strip $(shell ls coverage* 2>/dev/null | wc -l)).txt)
-	GOCACHE=off go test -race -coverprofile=$(COVERAGE) -covermode=atomic github.com/eggsampler/acme/...
+	GOCACHE=off go test -race -coverprofile=$(COVERAGE) -covermode=atomic github.com/varusan/acme/...
 
 clean:
 	rm -f coverage_*.txt
