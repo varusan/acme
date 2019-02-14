@@ -55,3 +55,10 @@ func WithRetryCount(retryCount int) OptionFunc {
 		return nil
 	}
 }
+
+func WithHTTPClient(httpClient *http.Client) OptionFunc {
+	return func(client *Client) error {
+		client.httpClient = httpClient
+		return nil
+	}
+}
